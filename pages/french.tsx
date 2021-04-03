@@ -4,7 +4,7 @@ export default function FrenchPage() {
   return (
     <div>
       <Header />
-      French us
+      <h1>FrenchPage</h1>
     </div>
   );
 }
