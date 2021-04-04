@@ -1,6 +1,7 @@
 import Header from "../components/header";
 import Content from "../components/content";
 import Footer from "../components/footer";
+import SubMenu from "../components/submenu"
 
 export default function EnglishPage() {
   const welcomeText = "Welcome to Learning Ceeson"
@@ -8,7 +9,12 @@ export default function EnglishPage() {
   return (
     <div>
       <Header />
-      <Content title={pageTile} maintext={welcomeText}/>
+      <SubMenu/>
+      <Content title={"Learn to Speak English"} maintext={welcomeText}/>
+      <Content title={"Learn to Read English"} maintext={welcomeText}/>
+      <Content title={"Listen to Spoken English"} maintext={welcomeText}/>
+
+
       <Footer/>
 
     </div>

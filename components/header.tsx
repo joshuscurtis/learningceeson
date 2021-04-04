@@ -7,6 +7,7 @@ export default function Header() {
   <style>{`
     body {
       margin: 0;
+      font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     }
   `}
   </style>
