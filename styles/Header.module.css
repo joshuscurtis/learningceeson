@@ -4,7 +4,7 @@
   display: flex;
 }
 .items {
-  width: 80%;
+  width: 300px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -38,6 +38,33 @@
   display: flex;
   justify-content: center;
 }
+
+.contact {
+  height: 75px;
+  margin-top: 10px;
+  display: flex;
+  align-content: flex-end;
+  margin-left: auto;
+}
+.contact {
+  text-align: center;
+  border: 0px solid;
+  width: 20vw;
+  max-height: 50px;
+  font-size: 1.4em;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  min-width: 110px;
+  max-width: 110px;
+}
+
+.contact:hover {
+  box-shadow: 0.1px 0.1px 5px 0.1px;
+}
+
 @media only screen and (max-width: 600px) {
   .items {
     background-color: whitesmoke;
@@ -46,12 +73,13 @@
   }
   .item {
     width: 25%;
-    min-width: 110px;
+    min-width: 90px;
   }
   .logo {
     display: flex;
     width: 100%;
     margin: 0px;
+    height: 90px;
   }
   .item:hover {
     box-shadow: none;
@@ -59,5 +87,11 @@
   .container {
     flex-direction: column;
     margin-bottom: 30px;
+  }
+  .contact {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 15px;
   }
 }

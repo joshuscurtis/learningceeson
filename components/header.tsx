@@ -5,9 +5,9 @@ export default function Header() {
     <div className={header.container}>
       <div className={header.logo}>LOGO</div>
       <div className={header.items}>
-        <Link href="/">
+        {/* <Link href="/">
           <div className={header.item}>Home</div>
-        </Link>
+        </Link> */}
         <Link href="french">
           <div className={header.item}>Learn French</div>
         </Link>
@@ -15,9 +15,12 @@ export default function Header() {
           <div className={header.item}>Learn English</div>
         </Link>
         <Link href="about">
-          <div className={header.item}>About Us</div>
+          <div className={header.item}>About</div>
         </Link>
       </div>
+      <Link href="contact">
+        <div className={header.contact}>Contact</div>
+      </Link>
     </div>
   );
 }
