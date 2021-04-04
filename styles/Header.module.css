@@ -1,10 +1,18 @@
 .container {
-  background: whitesmoke;
-  height: 75px;
   display: flex;
+  justify-content: center;
+  background: black;
+}
+.nav {
+  background: black;
+  height: 48px;
+  display: flex;
+  color: white;
+  font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  width: 1024px;
 }
 .items {
-  width: 300px;
+  width: 600px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -12,7 +20,6 @@
 .item {
   text-align: center;
   border: 0px solid;
-  width: 20vw;
   max-height: 50px;
   min-height: 50px;
   font-size: 1.4em;
@@ -21,16 +28,16 @@
   text-align: center;
   display: flex;
   justify-content: center;
-  min-width: 110px;
-  max-width: 110px;
+  font-size: 14px;
+  width: 100%;
 }
 
 .item:hover {
-  box-shadow: 0.1px 0.1px 5px 0.1px;
+  color: lightgrey;
 }
 .logo {
   width: 20vw;
-  font-size: 3em;
+  font-size: 2em;
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -64,22 +71,34 @@
 .contact:hover {
   box-shadow: 0.1px 0.1px 5px 0.1px;
 }
-
+.hamburger {
+  display: none;
+}
 @media only screen and (max-width: 600px) {
+  .nav {
+    width: 100%;
+    background: black;
+
+  }
+  .container {
+    width: 100%;
+    background: black;
+  }
   .items {
     background-color: whitesmoke;
     width: 100%;
     border: 1px solid;
+    background: black;
+    display: none;
   }
   .item {
-    width: 25%;
     min-width: 90px;
   }
   .logo {
     display: flex;
-    width: 100%;
+    width: 80%;
     margin: 0px;
-    height: 90px;
+    height: 48px;
   }
   .item:hover {
     box-shadow: none;
@@ -93,5 +112,11 @@
     top: 0;
     right: 0;
     margin-right: 15px;
+  }
+  .hamburger {
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
   }
 }
