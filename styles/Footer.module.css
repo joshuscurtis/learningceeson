@@ -1,0 +1,11 @@
+.container {
+  background: whitesmoke;
+  display: flex;
+  border: 1px solid;
+  flex-direction: column;
+  justify-content: center;
+  bottom:0;
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+}

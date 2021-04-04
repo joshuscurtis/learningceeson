@@ -1,0 +1,19 @@
+.container {
+  background: whitesmoke;
+  display: flex;
+  border: 1px solid;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+}
+
+.maintext {
+  width: 100%;
+  text-align: center;
+
+}

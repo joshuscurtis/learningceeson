@@ -3,7 +3,9 @@ import Link from "next/link";
 export default function Header() {
   return (
     <div className={header.container}>
-      <div className={header.logo}>LOGO</div>
+      <Link href="/">
+        <div className={header.logo}>Learning Ceeson</div>
+      </Link>
       <div className={header.items}>
         {/* <Link href="/">
           <div className={header.item}>Home</div>
@@ -14,13 +16,10 @@ export default function Header() {
         <Link href="english">
           <div className={header.item}>Learn English</div>
         </Link>
-        <Link href="about">
-          <div className={header.item}>About</div>
+        <Link href="contact">
+          <div className={header.item}>Contact</div>
         </Link>
       </div>
-      <Link href="contact">
-        <div className={header.contact}>Contact</div>
-      </Link>
     </div>
   );
 }
