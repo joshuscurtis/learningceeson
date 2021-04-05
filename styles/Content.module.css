@@ -5,6 +5,8 @@
   flex-direction: column;
   justify-content: center;
   margin-top: 20px;
+  margin: 20px;
+  width: 350px;
 }
 
 .title {
@@ -15,5 +17,13 @@
 .maintext {
   width: 100%;
   text-align: center;
+
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+    justify-content: center;
+  }
 
 }

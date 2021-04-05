@@ -1,0 +1,14 @@
+.panels {
+    display:flex;
+    justify-content:center;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .panels{
+        flex-direction: column;
+        justify-content:center;
+    }
+}
