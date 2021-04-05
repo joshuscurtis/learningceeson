@@ -11,6 +11,8 @@ export default function Header() {
   return (
     <div className={header.container}>
   <style>{`
+  @import-normalize;
+
     body {
       margin: 0;
       font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;

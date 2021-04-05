@@ -1,6 +1,7 @@
 .panels {
     display:flex;
     justify-content:center;
+    margin-top: 50px;
 }
 
 
@@ -10,5 +11,6 @@
     .panels{
         flex-direction: column;
         justify-content:center;
+        margin-top: 0px;
     }
 }

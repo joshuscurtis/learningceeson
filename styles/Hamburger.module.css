@@ -2,14 +2,19 @@
     .hamburgerMenu {
         color: white;
         display: flex;
+        justify-content: center;
     }
     .hamburgerMenu > ul {
         display: flex;
         flex-direction: column;
+        padding: 0;
     }
     .hamburgerMenu > ul> li {
         margin-top: 10px;
         font-size: 20px;
         list-style: none;
+        border : 1px solid;
+        width:80vw;
+        padding:8px;
     }
 }
