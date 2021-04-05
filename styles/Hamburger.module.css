@@ -1,0 +1,15 @@
+@media only screen and (max-width: 600px) {
+    .hamburgerMenu {
+        color: white;
+        display: flex;
+    }
+    .hamburgerMenu > ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .hamburgerMenu > ul> li {
+        margin-top: 10px;
+        font-size: 20px;
+        list-style: none;
+    }
+}
